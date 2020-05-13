@@ -1,0 +1,32 @@
+h1 {
+  margin: .25rem;
+  padding: .25rem;
+}
+.start {
+  font-size: 1rem;
+  margin: .25rem;
+  padding: .25rem;
+}
+
+.sequence {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  margin: .25rem;
+  padding: .25rem;
+
+  border: 0.5rem solid white;
+  color: transparent;
+  cursor: pointer;
+}
+
+.sequence.highlight, .sequence:active {
+  border: 0.5rem solid black;
+}
+
+.red { background-color: red; }
+.green { background-color: green; }
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
+
+
